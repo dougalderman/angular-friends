@@ -1,8 +1,10 @@
 angular.module('friendsAng')
 .controller('homeCtrl', function($scope) {
 
-  var $scope.attribute = '';
-  var $scope.ascending = true;
+  /* $scope.attribute = $scope.sortAttribute.value;
+  $scope.ascending = $scope.ascendingtrue; */
+
+  $scope.order = '+';
 
   $scope.friends =
 
